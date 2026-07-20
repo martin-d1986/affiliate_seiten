@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weiterleitung</title>
+<style>
+  :root{
+    --paper: #FBF8F2;
+    --sage-deep: #35452F;
+    --gold: #B8863E;
+  }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  html,body{
+    height:100%;
+    background: var(--paper);
+    font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
+  }
+  body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding: 24px;
+  }
+  .card{
+    width:100%;
+    max-width: 480px;
+    background: var(--sage-deep);
+    border-radius: 10px;
+    padding: 40px 32px;
+    text-align:center;
+  }
+  .lead{
+    color:#E7E2D2;
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+  }
+  .cta-button{
+    display:inline-block;
+    background: var(--gold);
+    color:#FBF8F2;
+    font-weight:700;
+    font-size:1.1rem;
+    text-decoration:none;
+    padding: 18px 36px;
+    border-radius: 6px;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .cta-button:hover{
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+  }
+  .note{
+    color:#B9C4B2;
+    font-size:0.75rem;
+    margin-top:16px;
+  }
+  footer{
+    margin-top: 24px;
+    font-size: 0.68rem;
+  }
+  footer a{ color:#B9C4B2; }
+</style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="bilderspiralschneider.jpg" alt="Produktbild" style="max-width:100%; border-radius:8px; margin-bottom:24px;">
+    <div class="lead">Aktuellen Preis &amp; Verfügbarkeit prüfen</div>
+    <a class="cta-button" href="https://amzn.to/4gIdLl0" target="_blank" rel="nofollow sponsored noopener">
+      Bei Amazon ansehen →
+    </a>
+    <div class="note">Werbung · Affiliate-Link · Der Preis für dich ändert sich dadurch nicht</div>
+    <footer><a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></footer>
+  </div>
+
+</body>
+</html>
